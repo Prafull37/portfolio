@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import contactStyle from './contact.module.scss'
-import FormSection from './FormSection';
+// import FormSection from './FormSection';
 
 import { FaLinkedin } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa";
