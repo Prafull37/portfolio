@@ -1,0 +1,162 @@
+{
+    "home":{
+        "linkTitle":"Home",
+        "name":"Prafull Singh",
+        "role":"Frontend Developer",
+        "image":"/profile.png",
+        "introduction":"Hello! I'm Prafull Singh, a dedicated React Developer with 5 years of successful experience in JavaScript and React. I have a strong background in developing scalable and high-performance applications. I'm passionate about learning, growing, and excelling in the MERN stack.",
+        "aboutMe":{
+            "heading":"About Me",
+            "linkTo":"/#about",
+            "sections":{
+                "whoIAm":{
+                    "type":"general",
+                    "heading":"Who Am I ?",
+                    "text":"I am a passionate web developer specializing in React and JavaScript. With a keen eye for detail and a drive for excellence, I have been recognized consistently for my performance and contributions to successful project deliveries. My journey in the tech industry has equipped me with a versatile skill set and a deep understanding of the intricacies involved in creating seamless and efficient web applications."
+                }
+            }
+        },
+        "skills":[
+            {
+            "name": "JavaScript",
+            "experienceNumber": 5.3,
+            "experienceUnit": "year"
+          },
+          {
+            "name": "React JS",
+            "experienceNumber": 5.3,
+            "experienceUnit": "year"
+          },
+          {
+            "name": "Redux",
+            "experienceNumber": 5.3,
+            "experienceUnit": "year"
+          },
+          {
+            "name": "React Query",
+            "experienceNumber": 1.5,
+            "experienceUnit": "year"
+          },
+          {
+            "name": "Webpack",
+            "experienceNumber": 6,
+            "experienceUnit": "month"
+          },
+          {
+            "name": "HTML",
+            "experienceNumber": 5,
+            "experienceUnit": "year"
+          },
+          {
+            "name": "CSS",
+            "experienceNumber": 5,
+            "experienceUnit": "year"
+          },
+          {
+            "name": "TypeScript",
+            "experienceNumber": 6,
+            "experienceUnit": "month"
+          },
+          {
+            "name": "Storybook",
+            "experienceNumber": 6,
+            "experienceUnit": "month"
+          },
+          {
+            "name": "Jest",
+            "experienceNumber": 6,
+            "experienceUnit": "month"
+          },
+          {
+            "name": "React Testing Library",
+            "experienceNumber": 6,
+            "experienceUnit": "month"
+          },
+          {
+            "name": "Node.js",
+            "experienceNumber": 1,
+            "experienceUnit": "year"
+          },
+          {
+            "name": "Express",
+            "experienceNumber": 1,
+            "experienceUnit": "year"
+          },
+          {
+            "name": "JIRA",
+            "experienceNumber": "3",
+            "experienceUnit": "years"
+          },
+          {
+            "name": "Git",
+            "experienceNumber": "5",
+            "experienceUnit": "years"
+          },
+          {
+            "name": "Product Ownership",
+            "experienceNumber": "2",
+            "experienceUnit": "years"
+        }],
+        "whatILoveToDo":"I enjoy exploring the open-source ecosystem around JavaScript and React, often recreating projects for fun. I have a keen interest in developer experience, web analytics, and product analytics. One of my dreams is to build a comprehensive design system. Outside of coding, I'm a foodie and enjoy playing sports. If you share any of these interests or just want to connect, feel free to drop me a message!",
+        "contactForm":{
+            "email":{
+                "label":"",
+                "placeholder":"Email",
+                "name":"email"
+            },
+            "name":{
+                "label":"",
+                "placeholder":"Name",
+                "name":"name"
+            },
+            "message":{
+                "label":"",
+                "placeholder":"Enter Your Message",
+                "name":"message"
+            }
+        },
+        "socialMediaLinks":{
+            "linkedIn":{
+                "icon":"",
+                "url":"",
+                "open":"external",
+                "type":"socialMedia"
+            },
+            "instagram":{
+                "icon":"",
+                "url":"",
+                "open":"external",
+                "type":"socialMedia"
+            },
+            "email":{
+                "icon":"",
+                "url":"",
+                "open":"external",
+                "type":"email"
+            },
+            "whatsapp":{
+                "icon":"",
+                "url":"",
+                "open":"external",
+                "type":"whatsapp"
+            }
+        }
+    },
+    "resume":{
+        "linkTitle":"Resume",
+        "workExperience":{
+            "professional":{
+
+            },
+            "personal":{
+
+            },
+            "skills":{
+
+            },
+            "education":{
+
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+
+
+.profilePicContainer{
+    @media only screen and (min-width:990px) {
+        position: absolute;
+        top:32rem;
+        left:50%;
+        transform: translate(-50%,-50%);
+    } 
+}
+
+
+
+.profilePic{
+   border:1.8rem solid var(--gray-color-1);
+   box-sizing: content-box;
+   border-radius: 100%;
+   overflow: hidden;
+}
+
+
+
+.introSectionContainer{
+    width:100%;
+}
+
+.introSection{
+    position: relative;
+    width:100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:2.4rem;
+    @media only screen and (min-width:990px) {
+        padding-top:0;
+        flex-direction: row;
+        height:50rem;
+    }
+}
+
+
+
+.nameAndRoleContainer{
+    display: flex;
+    flex-direction: column;
+    @media only screen and (min-width:990px) {
+        width:50%;
+        height:100%;
+        background: var(--blue-color-1);
+        align-items: flex-start;
+        padding:0 2rem;
+        justify-content: center;
+    }
+   
+}
+
+
+.name{
+
+    @media only screen and (min-width:990px) {
+        font-size: 5rem;
+    }
+}
+
+.roleContainer{
+    width:fit-content
+}
+.role{
+    @media only screen and (min-width:990px) {
+        font-size: 2.4rem;
+    }
+}
+
+.introTextSection{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    @media only screen and (min-width:990px) {
+        width: 50%;
+    }
+}
+
+.introArticleSection{
+    width:88%;
+    margin: 0 auto;
+
+
+    @media only screen and (min-width:990px) {
+        margin-top: 12rem;
+        width: 40%;
+    }
+
+}
+
+
+.emoji{
+    font-size: 3.6rem;
+    margin: 0 1rem;
+}
