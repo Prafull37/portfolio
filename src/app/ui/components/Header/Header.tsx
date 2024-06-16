@@ -1,16 +1,17 @@
 
 
 
+import Link from 'next/link';
 import headerStyle from './header.module.scss'
 import NavLink from "./NavLink";
 import SideNavBarTrigger from "./SideNavBarTriggner";
 
 export default function Header(){
     return <header className={headerStyle.header}>
-        <div className={headerStyle.headerTitleContainer}>
+        <Link  href="/" className={headerStyle.headerTitleContainer}>
             <div className={headerStyle.initals}>P</div>
             <div>Prafull</div>
-        </div>
+        </Link>
         <nav className={headerStyle.nav}>
             <NavLink/>
         </nav>

@@ -20,6 +20,7 @@ const NavlinkConstant=[
         href:"/blogs",
         className:headerStyle.navLink
     }
+    
 ]
 
 

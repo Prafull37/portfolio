@@ -1,0 +1,27 @@
+.blog{
+    display: block;
+    padding:1.6rem;
+    
+    width: 100%;
+
+    & h3{
+        font-size: 2rem;
+    }
+}
+
+.borderBottom{
+    border-bottom: 1px solid;
+}
+
+.metadataStyle{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin:1rem 0;
+    font-weight: 1rem;
+}
+
+.excerptStyle{
+    font-weight: 200;
+    font-size: 1.4rem;
+}

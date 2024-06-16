@@ -1,0 +1,38 @@
+
+.layoutModule{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @media only screen and (min-width:990px) {
+        flex-direction: row;
+    }
+}
+
+.extraSection{
+    order:3;
+
+    @media only screen and (min-width:990px) {
+        order:1;
+        width: 20%;
+    }
+}
+
+.contentWrapper{
+    order:2;
+    margin:1rem;
+    @media only screen and (min-width:990px) {
+        order:1;
+        width: 55%; 
+        
+    }
+    
+}
+
+.searchSection{
+    order:1;
+    @media only screen and (min-width:990px) {
+        order:3;
+        width: 27%;
+    }
+}
