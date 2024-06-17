@@ -17,7 +17,7 @@ const NavlinkConstant=[
     {
         key:"3",
         title:"Blogs",
-        href:"/blogs",
+        href:"/blog-list",
         className:headerStyle.navLink
     }
     

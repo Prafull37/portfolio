@@ -10,5 +10,7 @@ const defaultComponents:Record<string,React.ComponentType>={
 }
 
 export default function Mdx(props:Props){
-    return <MDXRemote source={props.source} components={{...defaultComponents, ...(props.components||{})}} />
+    return <div style={{marginBottom:"5rem"}}>
+        <MDXRemote source={props.source} components={{...defaultComponents, ...(props.components||{})}} />
+    </div>
 }

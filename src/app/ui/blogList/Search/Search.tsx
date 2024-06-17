@@ -11,7 +11,7 @@ export default function Search(){
     const searchParams = useSearchParams();
     const params = new URLSearchParams(searchParams);
 
-    const [state,setState]= useState<string>(params.get("search") as string);
+    const [state,setState]= useState<string>((params.get("search") ||"")as string);
 
     const onInputChange=(e:ChangeEvent<HTMLInputElement>)=>{
         const value = e.target.value;

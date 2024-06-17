@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 import pageStyle from './page.module.scss'
 import { usePathname } from "next/navigation";
+import NoData from "@/app/ui/blogList/NoData";
 
 type BlogListPage = {
     searchParams:{
@@ -16,6 +17,10 @@ export default async function Page(props:BlogListPage){
     const {pageIndex,search} = props.searchParams ||{};
     const data = await getAllPostsCopy({search,pageIndex});
 
+    if(data.length === 0){
+        return <NoData/>
+    }
+    
     return (<div>
                 {data.map((item,index)=>
                     (<Link key={item.id} href={`/blog-list/${item.id}`} className={`${pageStyle.blog} ${data.length-1 !== index?pageStyle.borderBottom:""}`}>
