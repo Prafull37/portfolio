@@ -17,7 +17,6 @@ export default function Sidepanel(props:SidePanelProps){
         }else{
             document.body.classList.remove("modal-open")
         }
-        console.log("open",open)
     },[open])
 
     return <div className={`${sidepanelStyle.sidePanel} ${open? sidepanelStyle["sidePanel--open"]:""}`}>{children&&children}</div>
